@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: inherit 0;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(58, 50, 40);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(238, 220, 198);
+}
+
+ul {
+    list-style: none;
+}

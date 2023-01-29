@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 0;
+  
+    ul {
+        display: flex;
+        gap: 2rem;
+
+        a {
+            color: rgb(218, 179, 179);
+        }
+    }
+}
+
+

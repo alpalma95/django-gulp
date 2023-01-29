@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block page_title %}
+    Welcome
+{% endblock page_title %}
+{% block body %}
+    <div class="container">
+        <h1>Welcome to my blog!</h1>
+        <p>
+            Check out all my <a href="{% url 'get-all-posts' %}">POSTS</a>
+        </p>
+    </div>
+{% endblock body %}
