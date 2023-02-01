@@ -23,7 +23,7 @@ Additionally, I'm implementing a plugin called [django-livereload-server](https:
 ### Installations
 We need to install several things with npm (don't forget to `npm init`!):
 1. The Gulp cli if we don't have it yet: `npm i -g gulp-cli`
-2. Development dependencies: `npm install --save-dev gulp sass gulp-sass gulp-postcss cssnano gulp-replacenpm install --save-dev gulp gulp-sass cssnano gulp-concat gulp-uglify gulp-replace sass gulp-postcss`
+2. Development dependencies: `npm install --save-dev gulp sass gulp-sass gulp-postcss cssnano gulp-replace`
 
 Then, for Django, we just need one additional dependency. Activate your virtual environment and install Django and django-livereload-server: `pip install Django django-livereload-server`
 
